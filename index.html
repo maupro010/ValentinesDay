@@ -73,11 +73,14 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div id="copyright">
-		Copyright © 2020 <a href='http://cuiqingcai.com'>cuiqingcai.com</a> 2014-2020
-	</div>
+	</div>	
 </div>
+<script>
+     var audio = new Audio('yesido.mp3');
+     document.getElementById("playButton").addEventListener("click", function() {
+       audio.play();
+     });
+</script>
 <script>
       document.getElementById("playButton").addEventListener("click", function() {
       this.style.display = "none";
