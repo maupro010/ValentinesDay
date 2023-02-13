@@ -17,9 +17,6 @@
 </head>
 
 <body>
-<button id="playButton">
-      <img src="image_btn.jpg" style="width: 600px;height: 500px;">
-    </button>
 <div id="mainDiv">
 	<div id="content">
 		<div id="code">
@@ -75,19 +72,6 @@
 		</div>
 	</div>	
 </div>
-<script>
-     var audio = new Audio('yesido.mp3');
-     document.getElementById("playButton").addEventListener("click", function() {
-       audio.play();
-     });
-</script>
-<script>
-      document.getElementById("playButton").addEventListener("click", function() {
-      this.style.display = "none";
-      document.getElementById("mainDiv").style.display = "block";      
-    });
-
-    </script>
 <script type="text/javascript">
 	var offsetX = $("#loveHeart").width() / 2;
 	var offsetY = $("#loveHeart").height() / 2 - 55;
